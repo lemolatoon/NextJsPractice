@@ -4,7 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "fmt": "prettier --write .",
+    "dev": "npx next dev",
+    "build": "npx next build",
+    "start": "npx next start"
   },
   "repository": {
     "type": "git",
@@ -22,6 +26,10 @@
   "devDependencies": {
     "@types/node": "^17.0.21",
     "@types/react": "^17.0.41",
+    "@typescript-eslint/eslint-plugin": "^5.15.0",
+    "@typescript-eslint/parser": "^5.15.0",
+    "eslint": "^8.11.0",
+    "eslint-plugin-react": "^7.29.4",
     "prettier": "^2.6.0",
     "typescript": "^4.6.2"
   }
