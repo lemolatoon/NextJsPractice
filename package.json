@@ -8,7 +8,8 @@
     "fmt": "prettier --write .",
     "dev": "npx next dev",
     "build": "npx next build",
-    "start": "npx next start"
+    "start": "npx next start",
+    "eslint" : "npx eslint ."
   },
   "repository": {
     "type": "git",
@@ -29,6 +30,8 @@
     "@typescript-eslint/eslint-plugin": "^5.15.0",
     "@typescript-eslint/parser": "^5.15.0",
     "eslint": "^8.11.0",
+    "eslint-config-next": "^12.1.0",
+    "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-react": "^7.29.4",
     "prettier": "^2.6.0",
     "typescript": "^4.6.2"
