@@ -3,11 +3,9 @@ import Link from "next/link";
 // Next.js の仕組み
 // Next.js　新しくページを開くよりも効率がよい.
 import React, { useState, FunctionComponent } from "react";
+import { TestComponent } from "../components/test-component";
 import { hello } from "../src/canvas";
 
-const TestComponent: FunctionComponent = () => {
-    return <h2>Test Component</h2>
-}
 
 
 const Index: NextPage = () => {
@@ -41,7 +39,7 @@ const Index: NextPage = () => {
       </form>
       <br></br>
       <Link href="./second">second</Link>
-      <TestComponent></TestComponent>
+      <TestComponent text="Test Component dayo"></TestComponent>
     </>
   );
 };
