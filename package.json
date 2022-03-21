@@ -13,14 +13,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/azarashi2931/next-js-practice.git"
+    "url": "git+ssh://git@github.com:lemolatoon/TypeScriptPractice.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/azarashi2931/next-js-practice/issues"
+    "url": "https://github.com/lemolatoon/TypeScriptPractice.git/issues"
   },
-  "homepage": "https://github.com/azarashi2931/next-js-practice#readme",
+  "homepage": "https://github.com/lemolatoon/TypeScriptPractice#readme",
   "dependencies": {
     "next": "^12.1.0"
   },
