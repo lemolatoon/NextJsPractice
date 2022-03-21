@@ -10,7 +10,8 @@
     "build": "npx next build",
     "start": "npx next start",
     "eslint": "npx eslint .",
-    "commit": "npm run build && npm run eslint && npm run fmt && git commit"
+    "commit": "npm run build && npm run eslint && npm run fmt && git commit",
+    "export": "npx next export"
   },
   "repository": {
     "type": "git",
