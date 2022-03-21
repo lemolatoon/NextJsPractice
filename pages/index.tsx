@@ -1,12 +1,8 @@
 import { NextPage } from "next";
-import Link from "next/link"; 
-// Next.js の仕組み
-// Next.js　新しくページを開くよりも効率がよい.
-import React, { useState, FunctionComponent } from "react";
+import Link from "next/link";
+import React, { useState } from "react";
 import { TestComponent } from "../components/test-component";
 import { hello } from "../src/canvas";
-
-
 
 const Index: NextPage = () => {
   const [count, setCount] = useState<number>(0);
@@ -15,7 +11,6 @@ const Index: NextPage = () => {
   function buttonOnChanged(event: React.ChangeEvent<HTMLInputElement>) {
     setMsg(event.target.value);
   }
-
 
   return (
     <>
