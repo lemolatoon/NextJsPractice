@@ -64,7 +64,11 @@ npx eslint --init
     "extends": [
         "eslint:recommended",
         "plugin:@typescript-eslint/recommended",
-        "next/core-web-vitals", "prettier"
+        "next/core-web-vitals",
+        "prettier"
+    ],
+    "plugins": [
+        "@typescript-eslint"
     ]
 }
 ```
