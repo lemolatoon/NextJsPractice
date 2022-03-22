@@ -34,7 +34,8 @@ formatterやtypescriptは開発の上でのみ使用するものであるから�
 \
 `.prettierignore`
 ```
-.next/
+/.next
+/out
 *md
 ```
 `prettier`を実行したいときは以下で実行できる。このとき、`.prettierignore`で指定したファイル以外はすべてformatされる。
@@ -55,7 +56,7 @@ cf.\
 ### `eslint`の設定
 `.eslintrc.*`を生成
 ```bash
-eslint --init
+npx eslint --init
 ```
 `eslint`の設定ファイルのうち、Next.jsが担っているものが多くあるため、ほとんど削除できる。jsonで作成した場合は以下で十分である。
 ```json
